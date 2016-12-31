@@ -1,0 +1,7 @@
+Publisher\Entry\Twitter\Mode\Recommendation\TwitterUserRecommendation:
+    getters:
+        messagePayload:
+            - Length:
+                #'@constant("Publisher\\Entry\\Twitter\\TwitterUserEntry::MAX_LENGTH_OF_MESSAGE")'
+                max: 140
+                maxMessage: "Title, message and URL combined shouldn't exceed {{ limit }} characters."
